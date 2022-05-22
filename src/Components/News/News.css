@@ -1,0 +1,116 @@
+.news {
+  margin-bottom: 32px;
+}
+
+.news__container {
+  margin-left: var(--container-margin);
+}
+
+.news__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 49px;
+  line-height: 57px;
+  color: var(--color-primary-black);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.news__news-list {
+  display: flex;
+  overflow: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  margin-left: -32px;
+  padding-right: var(--container-margin);
+}
+
+.news-article {
+  background: #ffffff;
+  box-shadow: 1px 4px 19px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  width: 290px;
+  max-width: 290px;
+  flex-shrink: 0;
+}
+
+.news-article + .news-article {
+  margin-left: 21px;
+}
+
+.news-article__img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.news-article__content {
+  padding: 25px 28px 35px 24px;
+}
+
+.news-article__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  color: var(--color-primary-black);
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+.news-article__description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--color-text-sub);
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+.news-article__footer {
+  display: flex;
+  justify-content: space-between;
+}
+.news-article__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--color-primary-blue);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.news-article__link-text {
+  margin-right: 5px;
+}
+
+.news-article__date {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--color-text-sub);
+}
+
+@media screen and (min-width: 768px) {
+  .news-article {
+    width: 383px;
+    max-width: none;
+  }
+
+  .news__title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .news {
+    margin-bottom: 186px;
+  }
+}
