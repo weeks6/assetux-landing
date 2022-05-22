@@ -1,0 +1,12 @@
+.link {
+  padding: 6px;
+}
+
+.link__chip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9.8px 9px;
+  background: var(--color-chip-bg);
+  border-radius: 7px;
+}

@@ -1,0 +1,18 @@
+.button {
+  background: var(--color-primary-blue);
+  border-radius: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button:hover {
+  filter: brightness(1.1);
+}

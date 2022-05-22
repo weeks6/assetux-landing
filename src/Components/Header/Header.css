@@ -1,6 +1,7 @@
 .header {
   background-color: #fff;
   box-shadow: var(--header-shadow);
+  margin-bottom: 74px;
 }
 
 .header__container {
