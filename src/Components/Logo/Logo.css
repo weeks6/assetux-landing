@@ -1,0 +1,17 @@
+.logo {
+  padding: 8px 0;
+  width: 110px;
+  flex-shrink: 0;
+}
+
+.logo__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    padding: 16px 0;
+    width: 121px;
+    height: 41.09px;
+  }
+}

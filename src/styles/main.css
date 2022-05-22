@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import './container.css';
+
+:root {
+  /* Colors */
+  --color-primary-green: #68cc45;
+  --color-primary-red: #ff7979;
+  --color-primary-blue: #0066cc;
+  --color-primary-black: #3a3a3a;
+
+  --color-text-dark: #6e6e73;
+  --color-text-secondary: #616161;
+  --color-text-sub: #989898;
+
+  --color-chip-bg: #f5f5f5;
+  --color-button-border: #d2d2d7;
+
+  /* Sizes */
+  --container-margin: 10px;
+
+  /* Breakpoints */
+  --mobile: 320px;
+  --tablet: 768px;
+  --laptop: 1280px;
+  --desktop: 1440px;
+
+  /* Shadows */
+  --header-shadow: 1px 4px 32px rgba(0, 0, 0, 0.06);
+
+  /* Utils */
+  --transition: all 300ms ease-in;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --container-margin: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    --container-margin: 125px;
+  }
+}

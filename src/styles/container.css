@@ -1,0 +1,6 @@
+.container {
+}
+
+.container__main {
+  margin: 0 var(--container-margin);
+}
