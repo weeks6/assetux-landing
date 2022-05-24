@@ -74,8 +74,15 @@ const News = () => {
 
   return (
     <section className='news'>
+      <div className='container__main'>
+        <div className='news__header-container'>
+          <h2 className='heading news__title'>Новости</h2>
+          <a href='#' className='link__accent'>
+            Больше
+          </a>
+        </div>
+      </div>
       <div className='news__container'>
-        <h2 className='news__title'>Новости</h2>
         <div className='news__news-list'>
           {newsArticles.map((article, index) => (
             <NewsArticle key={index} {...article}></NewsArticle>

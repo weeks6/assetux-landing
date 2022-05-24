@@ -8,7 +8,7 @@ const About = () => {
     <section className='about'>
       <div className='about__container container__main'>
         <div className='about__content'>
-          <h2 className='about__title'>О компании</h2>
+          <h2 className='heading about__title'>О компании</h2>
           <p className='about__description'>
             ASSETUX создает и внедряет инструменты улучшающие взаимодействие
             пользователей с криптовалютой, помогающие исключить ошибки, которые

@@ -7,16 +7,6 @@
   flex-direction: column;
 }
 
-.about__title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 49px;
-  line-height: 57px;
-  color: var(--color-primary-black);
-  margin-top: 0;
-}
-
 .about__description {
   font-family: 'Roboto';
   font-style: normal;

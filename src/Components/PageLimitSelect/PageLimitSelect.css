@@ -1,0 +1,34 @@
+.page-limit-select__container {
+  display: flex;
+}
+
+.page-limit-select__button {
+  background: var(--color-chip-bg);
+  border-radius: 7px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--color-text-sub);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.page-limit-select__button + .page-limit-select__button {
+  margin-left: 12px;
+}
+
+.page-limit-select__button:hover,
+.page-limit-select__button-active {
+  background: var(--color-primary-blue);
+  color: white;
+}

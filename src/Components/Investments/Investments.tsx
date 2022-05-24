@@ -11,7 +11,7 @@ const Investments = () => {
     <section className='investments'>
       <div className='investments__container container__main'>
         <div className='investments__content'>
-          <h2 className='investments__title'>Инвестиции</h2>
+          <h2 className='heading investments__title'>Инвестиции</h2>
           <p className='investments__description'>
             Инвестируй в тренды с помощью портфелей, упакованных валютами
             финансовых сервисов, криптоигр, топ коинов и метавселенных. Портфели

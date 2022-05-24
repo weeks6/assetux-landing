@@ -10,3 +10,19 @@
   background: var(--color-chip-bg);
   border-radius: 7px;
 }
+
+.link__accent {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: var(--color-primary-blue);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.link__accent:hover {
+  color: var(--color-primary-black);
+}

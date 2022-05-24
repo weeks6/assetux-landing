@@ -1,0 +1,17 @@
+.heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--color-primary-black);
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 57px;
+  }
+}
