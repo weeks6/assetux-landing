@@ -255,6 +255,10 @@ const CryptoExploerer = () => {
                       key={`${rowIndex}_${index}`}
                       className={`table-content-item ${
                         index === 0 ? 'table-content-item__id' : ''
+                      } ${
+                        item.key === 'change'
+                          ? 'table-content-item__change'
+                          : ''
                       }`}
                     >
                       {item.value}

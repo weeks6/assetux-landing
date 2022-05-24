@@ -1,0 +1,178 @@
+.exchange-rate {
+  padding: 27px 29px 24px 29px;
+  background: #ffffff;
+  box-shadow: 1px 4px 19px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.exchange-rate.show-actions .exchange-rate__content {
+  margin-bottom: 23px;
+}
+
+.exchange-rate + .exchange-rate {
+  margin-left: 21px;
+}
+
+.exchange-rate__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.exchange-rate__title {
+  display: flex;
+  align-items: center;
+}
+
+.exchange-rate__icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  border-radius: 8px;
+}
+.exchange-rate__title-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary-black);
+  margin-left: 15px;
+}
+.exchange-rate__value {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  color: var(--color-secondary-black);
+}
+.exchange-rate__content {
+  display: flex;
+  justify-content: space-between;
+}
+.exchange-rate__content-text {
+}
+.exchange-rate__image {
+}
+.exchange-rate__actions {
+}
+.exchange-rate__action {
+}
+.sell {
+}
+.exchange-rate__action {
+}
+.buy {
+}
+
+.exchange-rate__change {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  margin-bottom: 6px;
+}
+
+.exchange-rate__change.negative {
+  color: var(--color-primary-red);
+}
+
+.exchange-rate__change.positive {
+  color: var(--color-primary-green);
+}
+
+.exchange-rate__info {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-text-sub);
+  white-space: nowrap;
+  margin-right: 32px;
+}
+
+.exchange-rates {
+  margin-bottom: 64px;
+}
+
+.exchange-rates__container {
+  margin-left: var(--container-margin);
+}
+
+.exchange-rates__list {
+  display: flex;
+  align-items: flex-start;
+  overflow: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  margin-left: -32px;
+  padding-right: var(--container-margin);
+}
+
+.exchange-rates__list::-webkit-scrollbar {
+  display: none;
+}
+
+.exchange-rate__actions {
+  display: flex;
+  align-items: center;
+}
+
+.exchange-rate__action {
+  width: 100%;
+  border: 1px solid var(--color-button-border);
+  border-radius: 10px;
+  padding: 14px 24px;
+  cursor: pointer;
+  background: transparent;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.exchange-rate__action:hover {
+  border: transparent 1px solid;
+}
+
+.exchange-rate__action + .exchange-rate__action {
+  margin-left: 20px;
+}
+
+.exchange-rate__action.buy {
+  color: var(--color-primary-green);
+}
+
+.exchange-rate__action.buy:hover {
+  color: white;
+  background-color: var(--color-primary-green);
+}
+
+.exchange-rate__action.sell {
+  color: var(--color-primary-red);
+}
+
+.exchange-rate__action.sell:hover {
+  color: white;
+  background-color: var(--color-primary-red);
+}
+
+@media screen and (min-width: 768px) {
+  .exchange-rates {
+    margin-bottom: 164px;
+  }
+}

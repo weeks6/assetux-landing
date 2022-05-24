@@ -7,6 +7,7 @@ import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Investments from '../Investments/Investments';
 import News from '../News/News';
+import ExchangeRates from '../ExchangeRates/ExchangeRates';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Header></Header>
       <Hero></Hero>
       <Investments></Investments>
+      <ExchangeRates></ExchangeRates>
       <CryptoExplorer></CryptoExplorer>
       <News></News>
       <About></About>

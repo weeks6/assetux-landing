@@ -45,6 +45,10 @@
   margin-bottom: 12px;
 }
 
+.table-content-item__change {
+  color: var(--color-primary-green) !important;
+}
+
 @media screen and (min-width: 768px) {
   .crypto-explorer {
     margin-bottom: 152px;
@@ -61,6 +65,7 @@
   .crypto-explorer__links {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 0;
   }
 }
 

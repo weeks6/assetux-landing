@@ -57,6 +57,10 @@
   .investments__slider {
     padding-bottom: 125px;
   }
+
+  .investments {
+    margin-bottom: 139px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
