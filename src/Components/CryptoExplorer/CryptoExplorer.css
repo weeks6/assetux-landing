@@ -54,6 +54,10 @@
     margin-bottom: 152px;
   }
 
+  .crypto-explorer__header {
+    margin-bottom: 56px;
+  }
+
   .cryptop-explorer__table-footer .page-limit-select__container {
     margin-bottom: 0;
   }
